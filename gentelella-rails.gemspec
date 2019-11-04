@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "gentelella-rails"
   s.version     = Gentelella::VERSION
   s.authors     = ["Michael Lang"]
-  s.email       = ["mwlang@cybrains.net"]
+  s.email       = ["lilee501@163.com"]
   s.homepage    = "https://github.com/mwlang/gentelella-rails"
   s.summary     = "Injects the gentelella theme and javascript files into Rails assets pipeline"
   s.description = s.summary
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{assets,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_runtime_dependency "railties", ">= 4.0"
+  s.add_runtime_dependency "railties", ">= 6.0"
   s.add_runtime_dependency 'sass-rails', '>= 5.0'
   s.add_runtime_dependency 'coffee-rails'
 
